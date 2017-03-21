@@ -122,10 +122,17 @@ if ((getNumber(configFile >> "CfgSettings" >> "BambiSettings" >> "parachuteSpawn
 }
 else
 {
-	_spawnType = 0;
+	_spawnType = 0;	
 };
 
 // Custom Loadout Starts Here. Uncomment the lines you want your players to have..
+
+	// Remove Anything already on the BambiSettings
+	removeAllAssignedItems _bambiPlayer;
+	removeGoggles _bambiPlayer;
+	removeHeadgear _bambiPlayer;
+	removeUniform _bambiPlayer;
+	//removeBackpackGlobal _bambiPlayer; // Only Uncomment This if Not Using Paracutes
 	
 	// Clothing
 	_bambiPlayer forceAddUniform "Exile_Uniform_ExileCustoms"; // Black Exile Overalls
