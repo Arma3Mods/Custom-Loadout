@@ -82,9 +82,9 @@ try
 			default 					{ _bambiPlayer addItem _x; };
 		};
 	}
-	forEach getArray(configFile >> "CfgSettings" >> "BambiSettings" >> "loadOut");
+	forEach getArray(configFile >> "CfgSettings" >> "BambiSettings" >> "loadOut");*/
 	[_sessionID, _requestingPlayer, _spawnLocationMarkerName, _bambiPlayer, _accountData] call ExileServer_object_player_createBambi;
-	*/
+	
 }
 catch
 {
