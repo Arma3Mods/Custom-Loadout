@@ -15,7 +15,7 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 	
-	// Kill Messages
+	// Custom Loadout
 	ExileServer_object_player_createBambi = "Custom\CustomLoadout\ExileServer_object_player_createBambi.sqf";
 	ExileServer_object_player_network_createPlayerRequest = "Custom\CustomLoadout\ExileServer_object_player_network_createPlayerRequest.sqf";
 	
